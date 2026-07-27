@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for NextActivity">
+  <title>Privacy policy for NextActivity · NextActivity</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="icon" href="../../assets/nextactivity-mark.png">
+</head>
+<body>
+  <!-- Generated from nextactivity/legal/privacy_policy.json. Do not edit by hand. -->
+  <header class="site-header">
+    <a class="brand" href="../../" aria-label="NextActivity">
+      <img src="../../assets/nextactivity-mark.png" alt="">
+      <span>NextActivity</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="./">Privacy</a>
+      <a href="../contact/">Contact &amp; legal</a>
+      <a class="language-link" href="../../de/datenschutz/" hreflang="de">Deutsch</a>
+    </nav>
+  </header>
+  <main class="document">
+    <p class="eyebrow">NEXTACTIVITY</p>
+    <h1>Privacy policy for NextActivity</h1>
+    <p class="updated">Last updated: July 27, 2026</p>
+    <section>
+<h2>1. Controller and contact</h2>
+<p>The controller and contact for NextActivity is Timo Friedl. Send support and privacy inquiries to swordigo.f@gmail.com. A private residential address is not published. Which additional provider and contact details are required for a public release must be clarified legally before a production release.</p>
+<p>NextActivity does not require a user account, contains no advertising, and uses no analytics, tracking, or advertising SDKs. No crash reports are sent to a NextActivity server. Personal data is not sold or disclosed to third parties for advertising, profiling, or other independent purposes.</p>
+</section>
+<section>
+<h2>2. Purpose, audience, and important limits</h2>
+<p>The app calculates situation-based leisure suggestions. Release 1 is intended for adults aged 18 and over and is not offered or promoted as a children’s app.</p>
+<p>NextActivity does not provide medical, therapeutic, diagnostic, emergency, or other safety-critical advice. Health, sleep, and activity values are used only to adjust non-binding leisure ideas. For health concerns, danger, or emergencies, contact qualified professionals or the appropriate emergency services.</p>
+</section>
+<section>
+<h2>3. Data stored permanently on the device</h2>
+<p>The device stores the language selection, settings for budget, transport, manual offline mode and optional history, local acceptance/rejection feedback, hidden activities, favorites, custom activities, scheduled activities, and onboarding status. Custom activities contain the title, description, category, minimum duration, estimated cost, indoor/outdoor setting, activity level, and company you enter. Favorites contain activity ID, title, description, category, and minimum duration. Scheduled activities additionally contain time, reminder status and, where selected, a place name.</p>
+<p>Situation values, session permissions, search addresses, coordinates, found places, routes, events, and calendar, health, and sleep values are not stored permanently by NextActivity. They remain only in memory for the current session. Optional history is disabled by default, limited to 100 entries, and stores only the activity, time, and, where already selected in the session, a place name.</p>
+<p>Data management can create a versioned JSON export locally and import it again after a preview. The export contains settings, favorites, hidden items, feedback, plans, and custom activities; history is included only after your explicit selection. Health values, coordinates, session permissions, keys, and diagnostics are excluded. NextActivity does not upload this export. Imported plans do not enable notifications automatically.</p>
+<p>You can remove local data in Settings or by deleting the app or its app data. There is no cloud synchronization and no user account.</p>
+</section>
+<section>
+<h2>4. Optional device sources and permissions</h2>
+<p>Only after explicit permission for the current session does NextActivity read device location, the next relevant calendar appointment, today’s steps and exercise duration, or latest sleep duration. Coarse location for weather and more precise location for nearby places and road routes are controlled separately. You can revoke session permission in the app and operating-system permissions in system settings; manual input remains available without them.</p>
+<p>Calendar and Health Connect/HealthKit data are processed on the device. Steps, exercise duration, and sleep data are not sent to NextActivity servers or to the weather, place, or routing services named below. Public address lookup for an appointment location is disabled in release 1; a destination position already available on the device may be used for an OSRM route after permission.</p>
+<p>When you enable a local reminder, NextActivity only then asks for notification permission and, on supported Android versions, revocable exact-alarm special access. Exact-to-the-second delivery is not guaranteed. The notification contains the title, description and, where stored locally, the place name of the scheduled activity.</p>
+</section>
+<section>
+<h2>5. Direct external services used after permission</h2>
+<p>There is no NextActivity backend proxy. For a permitted weather request, the app sends coordinates rounded to approximately two decimal places and the requested weather fields directly to api.open-meteo.com. Only after the separate nearby-place and route permission are more precise coordinates, the search radius, and OSM object filters sent to overpass-api.de and, only after an error or unusable result, to overpass.private.coffee. Start and destination coordinates and the mode of transport are sent directly to routing.openstreetmap.de for road routes. Public transport times are estimated locally only.</p>
+<p>All configured network addresses use HTTPS. External images from arbitrary OSM image tags are disabled. The services also necessarily receive the IP address and standard connection data. Open-Meteo states that troubleshooting logs may contain coordinates and are deleted after 90 days. Private.coffee describes truncated IP addresses and log retention of up to 48 hours. FOSSGIS states that route requests are stored in server log files; its current notice does not specify a concrete retention period. The providers’ current notices remain authoritative.</p>
+</section>
+<section>
+<h2>6. Public website and email contact</h2>
+<p>The public privacy and contact site is intended to be hosted on GitHub Pages. According to GitHub’s documentation, GitHub logs a visitor’s IP address for security purposes and processes further usage and connection data under its privacy statement. The website generated by NextActivity itself sets no cookies, includes no analytics, and loads no fonts, scripts, or images from third-party hosts.</p>
+<p>If you voluntarily email swordigo.f@gmail.com, the email providers involved, including Google as the provider for this address, process your sender address, technical message information, and the content you choose to send. The message is used only to handle your inquiry. Do not send health data, location data, or other sensitive content that is not necessary for your request.</p>
+</section>
+<section>
+<h2>7. Disabled sources and attribution</h2>
+<p>Public address search and reverse geocoding through Nominatim are disabled in release 1. Google Places, Google place photos, and Ticketmaster live events are not enabled or configured without a dedicated backend proxy. Manual events remain available. There is also no live occupancy, live traffic, or public-transport timetable source; the app does not simulate such data.</p>
+<p>Weather data: Open-Meteo (open-meteo.com, CC BY 4.0). Map and place data: © OpenStreetMap contributors (ODbL) and Overpass. Routing: FOSSGIS/OSRM (routing.openstreetmap.de). Map issues can be reported at openstreetmap.org/fixthemap.</p>
+</section>
+<section>
+<h2>8. Retention, deletion, and inquiries</h2>
+<p>Session data and short app-side caches for weather, places, and routes exist only in memory and are discarded when the relevant permission is revoked or no later than when the app closes. The server-side retention described above is controlled by the respective external providers.</p>
+<p>Favorites, custom activities, scheduled activities, and history can be deleted in the app. Data management can remove all NextActivity data stored permanently on the device. Because there is no NextActivity account or cloud storage, no account deletion is required.</p>
+<p>Send requests concerning access, correction, deletion, restriction, data portability, or objection to Timo Friedl at swordigo.f@gmail.com. Where processing is based on permission, you can withdraw it with future effect. You may also contact the competent data protection supervisory authority.</p>
+</section>
+
+<section>
+  <h2>9. Provider notices</h2>
+  <ul class="reference-list"><li><a href="https://open-meteo.com/en/terms" rel="noreferrer">Open-Meteo: terms and privacy</a></li>
+<li><a href="https://www.fossgis.de/arbeitsgruppen/osm-server/nutzungsbedingungen/" rel="noreferrer">FOSSGIS: usage policy for OSM services</a></li>
+<li><a href="https://www.fossgis.de/datenschutzerkl%C3%A4rung/" rel="noreferrer">FOSSGIS: privacy policy</a></li>
+<li><a href="https://overpass.private.coffee/" rel="noreferrer">Private.coffee Overpass: terms and privacy</a></li>
+<li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer">GitHub: privacy statement</a></li>
+<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" rel="noreferrer">GitHub Pages: hosting and data collection</a></li>
+<li><a href="https://www.openstreetmap.org/copyright" rel="noreferrer">OpenStreetMap: copyright and license</a></li>
+</ul>
+</section>
+  </main>
+  <footer>
+    <p>Static site without first-party cookies, analytics, or third-party assets.</p>
+  </footer>
+</body>
+</html>
